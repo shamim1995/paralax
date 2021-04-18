@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+body,h1,h2,h3,h4,h5,h6, span, p{
+	font-family: 'Roboto',
+	sans-serif;
+}
+
+#particle_content {
+	position: absolute;
+	top: 0;
+	left: 25%;
+	width: 100%;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+	width: 100%;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	padding-top: 0px !important;
+}
+
+/* parallaxie first */
+.parallaxie_bg{
+
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	width: 100% !important;
+	height: 500px !important;
+	background-attachment: fixed !important;
+	background-position: center !important;
+
+}
+
+.parallax_bg_content{
+
+	padding-top: 180px;
+	color: white;
+
+}
+.parallax_content {
+
+	margin-top: 164px !important;
+	padding-bottom: 100px;
+}
+
